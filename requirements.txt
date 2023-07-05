@@ -1,3 +1,2 @@
-colorama
-datetime
-calendar
+colorama==0.4.4
+DateTime==5.1
