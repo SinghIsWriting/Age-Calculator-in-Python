@@ -12,15 +12,15 @@ How to Run
 4. Navigate to the directory where the source code file is located.
 
 5. Install the required python packages and library. For example:
-python3 install -r requirements.txt
+6. pip3 install -r requirements.txt
 
-6. Run the python program: 
+7. Run the python program: 
 python3 main.py
 
-7. Follow the prompts to enter the Data of Birth.
+8. Follow the prompts to enter the Data of Birth.
 
-8. The program will display the options for calculated age format.
-9. The program will calculate the age and display on the terminal.
+9. The program will display the options for calculated age format.
+10. The program will calculate the age and display on the terminal.
 
 Usage
 1. The program prompts the user to enter the year, month and date of birth.
