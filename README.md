@@ -7,7 +7,7 @@ Prerequisites
 
 How to Run
 1. Clone the repository or download the source code file.
-2. git clone https://github.com/SinghIsWriting/Tax-Deduction-using-C.git
+2. git clone https://github.com/SinghIsWriting/Age-Calculator-in-Python.git
 3. Open a terminal or command prompt.
 4. Navigate to the directory where the source code file is located.
 
