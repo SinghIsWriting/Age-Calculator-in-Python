@@ -1,11 +1,12 @@
-#!/data/data/com.termux/files/usr/bin/python3
-import colorama
+import colorama     # importing colorama python library for colorful text
 from colorama import Fore
 colorama.init(autoreset=True)
 
+from datetime import date
+from calendar import monthrange
+
+# defining a function to calculate the age in days, months and year using given Date of Birth
 def age_calculator(year, month, day):
-    from datetime import date
-    from calendar import monthrange
     dob = date(year, month, day)
     t = date.today()
     age = t.year - dob.year - ((t.month, t.day) < (dob.month, dob.day))
@@ -52,8 +53,11 @@ def age_calculator(year, month, day):
     else:
         print("Invalid input!")
 
+# Strating the program
 if __name__ == '__main__':
+    # taking DOB as user input
     y = int(input(f"{Fore.CYAN}Enter the year of birth: "))
     m = int(input(f"{Fore.CYAN}Enter the month of birth(1-12): "))
     d = int(input(f"{Fore.CYAN}Enter the day of the birth: "))
+    # calling function to calculate age
     age_calculator(y, m, d)
